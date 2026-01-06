@@ -1,0 +1,95 @@
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+.pnp/
+.pnp.js
+
+# ===============================
+# Build / Output
+# ===============================
+dist/
+build/
+out/
+lib/
+coverage/
+
+# ===============================
+# TypeScript
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Logs
+# ===============================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Cache / Temp
+# ===============================
+.cache/
+.tmp/
+temp/
+.tmp.*
+.eslintcache
+
+# ===============================
+# Editor / OS
+# ===============================
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Testing
+# ===============================
+jest-cache/
+coverage/
+.nyc_output/
+
+# ===============================
+# Package Managers
+# ===============================
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# ===============================
+# Runtime / Process
+# ===============================
+.pid
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+# Blockchain / Web3 (optional)
+# ===============================
+artifacts/
+cache/
+typechain/
+broadcast/
+deployments/
+
+# ===============================
+# Misc
+# ===============================
+*.tgz
+*.swp
